@@ -14,3 +14,5 @@ The code clearly says that we will get the password when we decrypt the "b74dec4
 After decryption, we will get "Spring2019" which is our password. 
 
 When we enter the password in the app (we need not enter the username) , the flag will display.
+
+![Screenshot from 2025-03-02 15-01-18](https://github.com/user-attachments/assets/c93215b4-6177-4c2a-8d7b-042808679ae8)
