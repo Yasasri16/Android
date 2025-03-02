@@ -17,3 +17,54 @@ When we enter the password in the app (we need not enter the username) , the fla
 
 ![Screenshot from 2025-03-02 15-02-50](https://github.com/user-attachments/assets/28ca4c08-1af8-4534-a5fa-d57bbbf2ecc3)
 
+# easy2.apk
+Hint: "You can google for vulnerable places to see harcoded info in android" 
+
+After googling, I found many places where we can store the data within the app.
+
+I started checking each of them for the flag.
+
+While I was exploring strings.xml, I found "VGhlIGZsYWcgaXM6IGZsYWd7NDZhZmQ0ZjhkMmNhNTk1YzA5ZTRhYTI5N2I4NGFjYzF9Lg==" with the name secret_string, which is clearly base64 encoded string.
+
+After decoding, I found the flag.
+
+![Screenshot from 2025-03-02 15-11-12](https://github.com/user-attachments/assets/07a80c63-c6ad-4c4e-8198-ba500464f28c)
+
+# easy3.apk
+When you open the app, you will see a text saying something. There is no clue to find the flag. 
+
+Then I used jadx to view the source code knowing there will be more activities.
+
+In the SecondActivity, there is a text saying that some part of the flag is here.
+
+Then I opened it's xml file. Under that text, there is a textview named part2 which is in strings.xml file, which is "0f_4ndro1d_r3v?"
+
+This is the second part of the flag.
+
+Then I started exploring the manifest file, layout files.
+
+In activity_main.xml file, I found a text "3ver_h3ard_". This along with the second part makes a meaningful string.
+
+From this app, we will get a meaningful string and not flag.
+
+# easy4.apk
+When I installed the app and opened it, there is a cat with a gun.
+
+When I clicked on that image, there is an explosion.
+
+I then started viewing the source code. 
+
+In the MainActivity code,
+
+![Screenshot from 2025-03-02 15-45-10](https://github.com/user-attachments/assets/d0e5c541-406e-4f62-b9db-89a0ffa8c684)
+
+We can clearly see that the flag will be displayed when we use logcat.
+
+I used "adb logcat | grep flag" to get the flag.
+
+![Screenshot from 2025-03-02 15-50-21](https://github.com/user-attachments/assets/4ae2e7d6-8538-48dd-8257-26057e3275be)
+
+
+
+
+
