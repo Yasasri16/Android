@@ -13,7 +13,7 @@ ADB is a command-line tool that allows you to communicate with an Android device
 
 `adb shell getprop ro.product.cpu.abi` - To view the architecture.
 
-`adb push <source> <destination>` - To push files
+`adb push <source> <destination>` - To push files.
 
 `adb pull <source> <destination>` - To pull files.
 
