@@ -64,6 +64,23 @@ I used "adb logcat | grep flag" to get the flag.
 
 ![Screenshot from 2025-03-02 15-50-21](https://github.com/user-attachments/assets/4ae2e7d6-8538-48dd-8257-26057e3275be)
 
+# hard1.apk
+When we install the app, we can see that we need to enter the username and password.
+
+From the code, we can see that username1 is retrieved from the shared preferences.
+
+username2 is a concatenated string of username1 and "111111111111".
+
+AES Encryption supports either 16 bytes, 24 bytes or 32 bytes.
+
+As we can see that there are already 12 bytes in username2, the username1 should contain either 4 bytes or 12 bytes or 20 bytes.
+
+Then by taking a look at the if else block in Main Activity, we can clearly see that username 2 should contain "1337".
+
+I then tried entering just the "1337" as username and some random password and got the flag. 
+
+`  
+
 
 
 
