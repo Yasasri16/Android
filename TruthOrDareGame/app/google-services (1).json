@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160974808867",
+    "project_id": "truthordaregame-52391",
+    "storage_bucket": "truthordaregame-52391.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160974808867:android:23f06d36f805d16f98ce96",
+        "android_client_info": {
+          "package_name": "com.example.truthordaregame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_3Lswo9Ln3TJ0BQdSkAWYi8PvVg3f304"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
