@@ -1,4 +1,4 @@
-# Task 2 – Hardcoding Issues - Part 1
+# Task 2 : Hardcoding Issues - Part 1
 
 Now, let's move on to the second challenge, which is titled `HARDCODING ISSUES - PART 1`.
  
