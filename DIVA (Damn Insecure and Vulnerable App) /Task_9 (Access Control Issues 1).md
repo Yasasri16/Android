@@ -24,3 +24,6 @@ In this activity, we can see the details we saw earlier.
 
 Since our objective is to access these credentials and since this activity has an intent filler, we can just simply start this activity using adb commands.
 
+The required command is `adb shell am start jakhar.aseem.diva/.APICredsActivity`.
+
+The core issue here is **the unrestricted access to the API credentials via an implicit intent that any app can intercept**. The solution involves either switching to explicit intents or enforcing proper access control to ensure that only authorized users or apps can view sensitive information.
