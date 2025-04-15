@@ -1,4 +1,4 @@
-# Task 6 : Insecure Data Storage - Part 4 
+![Screenshot from 2025-04-15 18-19-33](https://github.com/user-attachments/assets/216dcaf8-aa95-4ef1-b79e-dd47ef1357f7)# Task 6 : Insecure Data Storage - Part 4 
 
 Let's dive into the sixth challenge which is named as `Insecure Data Storage : Part 4`
 
@@ -15,3 +15,17 @@ This presents a serious security risk regarding to user privacy. Storing sensiti
 The best solution is to encrypt the data before storing the data in a file to prevent unauthorized access. Hence we can ensure the protection of user data against potential threats.
 
 To display the vulnerability, we first enter our details in the app and click save button.
+
+![Screenshot from 2025-04-15 18-15-19](https://github.com/user-attachments/assets/2d3edc0c-a76e-4efd-bbfa-5bc19b4b4c38)
+
+Here are the commands needed to view the details which we have entered earlier.
+
+
+```
+adb shell
+cd sdcard
+cat ".uinfo.txt"
+```
+![Screenshot from 2025-04-15 18-19-33](https://github.com/user-attachments/assets/e752f968-dbd0-44f0-ab91-bf1b63491637)
+
+Here are the details which we have entered earlier.
