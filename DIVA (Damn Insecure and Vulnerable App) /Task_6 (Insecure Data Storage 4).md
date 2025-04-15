@@ -6,7 +6,7 @@ Let's dive into the sixth challenge which is named as `Insecure Data Storage : P
 
 During this level, people might face issues because the app lacks required required permissions. Once you give the requires permissions for your emulator, everything will be fine.
 
-It is clear from the code that the data is being stored in a file called ".uinfo.txt" which is stored in the external storage.
+It is clear from the code that the data is being stored in a file called ".uinfo.txt" in the external storage.
 
 The critical issue here is that **the user entered data is getting stored in the file without any exncyption or obfuscation. It is getting stored in plain text**. Any one who has access to the device can view your information.
 
