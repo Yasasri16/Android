@@ -6,14 +6,6 @@ Now, let's start with the second challenge which is named as `HARDCODING ISSUES 
 
 Here, it is very clear that the input should be equal to `vendorsecretkey` to get access.
 
-Here is the part of code which validates the input to be `vendorsecretkey`. 
-
-`if (hckey.getText().toString().equals("vendorsecretkey")) {
-            Toast.makeText(this, "Access granted! See you on the other side :)", 0).show();
-        } else {
-            Toast.makeText(this, "Access denied! See you in hell :D", 0).show();
-        }
-`
 When we enter `vendorsecretkey` as input, it successfully gives us access.
 
 In this challenge, the critical issue is that, anyone who can view this source code can get the access. Therefore, storing the sensitive data in the form of plain text in the source code is a problem too. The best solution is to encrypt sensitive information like this. This is for security reasons.
