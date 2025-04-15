@@ -29,4 +29,14 @@ Then, using the Android `content` command to query the provider:
 
 The command returns the stored notes in plaintext, successfully bypassing the PIN check.
 
+Also, we can directly access the notes since the data is stored in the database with name "divanotes.db"
+
+Hence, we can access the notes using commands 
+```
+adb shell
+cd data/data/jakhar.aseem.diva/databases
+sqlite3 divanotes.db
+sqlite> select * from notes;
+```
+
 The key issue here is **the unrestricted access to sensitive data via an exposed ContentProvider**. The possible solution is **to set android:exported="false"**, **enforce proper permissions**.
