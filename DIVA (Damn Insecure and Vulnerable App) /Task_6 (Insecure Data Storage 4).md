@@ -1,4 +1,4 @@
-![Screenshot from 2025-04-15 18-19-33](https://github.com/user-attachments/assets/216dcaf8-aa95-4ef1-b79e-dd47ef1357f7)# Task 6 : Insecure Data Storage - Part 4 
+# Task 6 : Insecure Data Storage - Part 4 
 
 Let's dive into the sixth challenge which is named as `Insecure Data Storage : Part 4`
 
