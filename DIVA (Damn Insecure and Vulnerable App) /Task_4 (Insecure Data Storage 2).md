@@ -30,4 +30,10 @@ Now, we use the following commands to see the details we have given earlier.
 
 `sqlite> .exit`
 
+```adb shell
+cd data/data/jakhar.aseem.diva/databases 
+sqlite3 ids2
+sqlite> .tables
+sqlite> SELECT * FROM myuser;
+sqlite> .exit```
 
