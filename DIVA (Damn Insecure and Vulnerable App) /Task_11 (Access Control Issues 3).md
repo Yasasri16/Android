@@ -38,5 +38,9 @@ cd data/data/jakhar.aseem.diva/databases
 sqlite3 divanotes.db
 sqlite> select * from notes;
 ```
+![Screenshot from 2025-04-16 00-35-55](https://github.com/user-attachments/assets/0cf60430-708e-49c4-b249-6a7303454071)
 
-The key issue here is **the unrestricted access to sensitive data via an exposed ContentProvider**. The possible solution is **to set android:exported="false"**, **enforce proper permissions**.
+
+The key issue here is **the unrestricted access to sensitive data via an exposed ContentProvider**. 
+
+The possible solution is **to set android:exported="false"**, **enforce proper permissions**.
