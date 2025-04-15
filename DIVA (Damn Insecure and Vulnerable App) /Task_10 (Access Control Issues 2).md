@@ -51,7 +51,7 @@ This is the final command :
 
 `adb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.action.VIEW_CREDS2 --ez check_pin false`.
 
-**NOTE : --ez is used to pass a boolean extra (--ez <key> <true|false>)**.
+`NOTE : --ez is used to pass a boolean extra (--ez <key> <true|false>)`.
 
 The core issue here is that **the API credentials are accessible via an implicit intent that can be triggered by any app or external entity, allowing unauthorized access to sensitive information**. This exposes the credentials to potential interception by malicious actors.
 
