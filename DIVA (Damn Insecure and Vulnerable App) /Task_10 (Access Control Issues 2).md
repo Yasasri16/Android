@@ -52,3 +52,7 @@ This is the final command :
 `adb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.action.VIEW_CREDS2 --ez check_pin false`.
 
 **NOTE : ez is a flag which refers to boolean extra**.
+
+The core issue here is that **the API credentials are accessible via an implicit intent that can be triggered by any app or external entity, allowing unauthorized access to sensitive information**. This exposes the credentials to potential interception by malicious actors.
+
+The possible solution is **to switch to explicit intents**, where the target activity is clearly specified, ensuring that only the app itself can trigger the activity. Additionally, **implementing proper access control mechanisms**, such as authentication or permission checks, would ensure that only authorized users or apps can access sensitive data like the API credentials.
