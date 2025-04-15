@@ -18,8 +18,9 @@ To display the vulnerability, we first enter our details in the app and click sa
 
 Now, we use the following commands to see the details we have given earlier.
 
-```adb shell
-thgmcx```
+```
+adb shell
+t```
 
 
 
