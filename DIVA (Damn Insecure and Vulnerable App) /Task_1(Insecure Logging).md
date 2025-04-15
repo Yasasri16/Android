@@ -1,4 +1,4 @@
-# Task 1
+# Task 1 : INSECURE LOGGING
 
 Upon installing and launching the APK, we observe that the application provides 13 different challenges, each corresponding to a specific vulnerability. The first level is titled "Insecure Logging".
 
