@@ -14,4 +14,20 @@ The best possible solution is to encrypt the data before storing it in the datab
 
 To display the vulnerability, we first enter our details in the app and click save button.
 
+![Screenshot from 2025-04-15 17-08-18](https://github.com/user-attachments/assets/525eaa25-f334-49cd-babb-d0f5b2f2cc2e)
+
+Now, we use the following commands to see the details we have given earlier.
+
+`adb shell`
+
+`cd data/data/jakhar.aseem.diva/databases `
+
+`sqlite3 ids2`
+
+`sqlite> .tables`
+
+`sqlite> SELECT * FROM myuser`
+
+`sqlite> .exit`
+
 
