@@ -8,7 +8,8 @@ From the code, it is clear that the user entered data is being stored insecurely
 
 The core issue here is that **the data is saved in plain text, making it easily accessible to anyone with access to the device — especially on rooted devices**. 
 
-Storing data in plain text within the SharedPreferences is a security risk because attackers can easily read or modify stored data on rooted devices, leading to data leaks. Sensitive info like tokens or login states in plaintext can be exploited. 
+This presents a serious security risk, as attackers can read or manipulate the stored data, potentially leading to data leaks or unauthorized access to app features.
 
-The best possible solution is encrypting the data in Shared Preferences. Encrypting ensures data is securely stored and unreadable without proper keys, protecting against tampering and unauthorized access.
+The best possible solution is to encrypt the data before storing it in SharedPreferences. Encryption ensures that sensitive data remains protected and unreadable without the appropriate decryption key, thereby safeguarding it from tampering and unauthorized access.
+
 
