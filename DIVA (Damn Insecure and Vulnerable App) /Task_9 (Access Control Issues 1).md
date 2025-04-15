@@ -11,3 +11,16 @@ When we open this activity in the app, we can see the button called `VIEW API CR
 However, our objective is to access these credentials from outside the application.
 
 ![Screenshot from 2025-04-15 23-12-07](https://github.com/user-attachments/assets/c0fa2375-c5eb-4d14-bf5d-5355974b8b49)
+
+From the source code, we can see that this activity leads to `jakhar.aseem.diva.action.VIEW_CREDS` when you click the button.
+
+![Screenshot from 2025-04-15 23-16-51](https://github.com/user-attachments/assets/383de74c-8cd4-462c-a7db-554cc70ed120)
+
+From the manifest file, we can see that this leads to another activity `APICredsActivity.class`. 
+
+![Screenshot from 2025-04-15 23-18-46](https://github.com/user-attachments/assets/8e69f37c-667d-49d8-8cf9-8c5238f1c5de)
+
+In this activity, we can see the details we saw earlier.
+
+Since our objective is to access these credentials and since this activity has an intent filler, we can just simply start this activity using adb commands.
+
