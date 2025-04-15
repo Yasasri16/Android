@@ -8,7 +8,7 @@ The main objective here is to access the sensitive information apart from Web UR
 
 The critical issue here is **the lack of proper input validation, which allows untrusted data to be processed directly**. This can lead to serious vulnerabilities such as XSS, open redirects, or even code execution. 
 
-The possible solution is to implement strict input validation and sanitization, ensure server-side checks, and avoid loading or executing user-provided input without verification.
+The possible solution is **to implement strict input validation and sanitization, ensure server-side checks, and avoid loading or executing user-provided input without verification**.
 
 Now, let's try to demonstrate the vulnerability. 
 
