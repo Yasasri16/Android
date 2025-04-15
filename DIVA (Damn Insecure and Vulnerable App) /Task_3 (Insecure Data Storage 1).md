@@ -4,7 +4,7 @@ Now, let's start our third challenge which is named as `Insecure Data Storage : 
 
 ![Screenshot from 2025-04-15 16-20-16](https://github.com/user-attachments/assets/46463639-bbeb-45c9-a317-c3b457378efe)
 
-From the code, it is clear that the user entered data is being stored insecurely in Shared Preferences. Whenever the user enter the details in the app and click on save button, the details are automatically saved into the Shared Preferences.
+From the code, it is evident that the user entered data is being stored insecurely in Shared Preferences. Whenever the user enter the details in the app and click on save button, the details are automatically saved into the Shared Preferences.
 
 The core issue here is that **the data is saved in plain text, making it easily accessible to anyone with access to the device — especially on rooted devices**. 
 
