@@ -18,5 +18,4 @@ Let's try to access any sensitive information from the files from the previous c
 
 
 
-![Screenshot from 2025-04-15 22-58-57](https://github.com/user-attachments/assets/ec7a8145-3de0-4c79-b26a-a1c22342c0e9)  
-![Screenshot from 2025-04-15 22-59-56](https://github.com/user-attachments/assets/7c9a5a86-8a8b-4f05-93b7-3ba6c391c2ed)
+![Screenshot from 2025-04-15 22-58-57](https://github.com/user-attachments/assets/ec7a8145-3de0-4c79-b26a-a1c22342c0e9)  ![Screenshot from 2025-04-15 22-59-56](https://github.com/user-attachments/assets/7c9a5a86-8a8b-4f05-93b7-3ba6c391c2ed)
