@@ -24,7 +24,7 @@ Now, we use the following commands to see the details we have given earlier.
 
 `cat jakhar.aseem.diva_preferences.xml`
 
-![Screenshot from 2025-04-15 16-57-11](https://github.com/user-attachments/assets/a6409db8-4c46-4630-8b07-79fb390b77ad)
+![Screenshot from 2025-04-15 16-59-12](https://github.com/user-attachments/assets/4edb5481-509f-4658-8389-211e7834b4a5)
 
 Here are the details which I entered earlier.
 
