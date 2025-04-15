@@ -14,8 +14,8 @@ We know that any application or any user can access logcat. The fact that our se
 
 Now, to display the vulnerability, we can use the following command.
 
-```bash
+`
 adb logcat | grep "diva-log"
-```
+`
 
 This command filters out log messages tagged with diva-log and reveals the credit card number that was entered in the app.
