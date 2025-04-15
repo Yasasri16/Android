@@ -12,4 +12,14 @@ This presents a serious security risk, as attackers can read or manipulate the s
 
 The best possible solution is to encrypt the data before storing it in SharedPreferences. Encryption ensures that sensitive data remains protected and unreadable without the appropriate decryption key, thereby safeguarding it from tampering and unauthorized access.
 
+To display the vulnerability, we first enter our details in the app and click save button.
+
+![Screenshot from 2025-04-15 16-46-32](https://github.com/user-attachments/assets/b6ca7a27-9680-4af6-bd84-26938ecaaabd)
+
+Now, we use the following commands to see the details we have given earlier.
+
+`adb shell
+thgmcx'
+
+
 
