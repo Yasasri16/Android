@@ -26,5 +26,4 @@ sqlite> .tables
 sqlite> SELECT * FROM myuser;
 sqlite> .exit
 ```
-
-![Screenshot from 2025-04-15 17-17-42](https://github.com/user-attachments/assets/b9f65255-8cc0-493b-8883-664dd137b2cb)
+![Screenshot from 2025-04-15 17-18-22](https://github.com/user-attachments/assets/cf3a3538-0dc2-4d5e-a5a5-28cfc0ec60d9)
