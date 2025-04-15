@@ -16,3 +16,4 @@ In `Resources/lib`, we can find the many `.so files` (different arch).
 
 We then download any one of these `.so files` and decompile them using IDA or Ghidra to see the native code.
 
+![Screenshot from 2025-04-16 01-47-13](https://github.com/user-attachments/assets/7c70f274-a0a6-4a6f-991b-5743760247cf)
