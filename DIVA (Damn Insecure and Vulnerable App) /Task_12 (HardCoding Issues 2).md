@@ -21,3 +21,5 @@ We then download any one of these `.so files` and decompile them using IDA or Gh
 Here is the native code for the method `access` which returns a string `olsdfgad;lh`.
 
 We can see that our input is being compared to the string that the method `access` returns. Hence our input should be `olsdfgad;lh`.
+
+![Screenshot from 2025-04-16 01-50-38](https://github.com/user-attachments/assets/f99fd7ed-8017-4bb9-a026-ecae955a413e)
