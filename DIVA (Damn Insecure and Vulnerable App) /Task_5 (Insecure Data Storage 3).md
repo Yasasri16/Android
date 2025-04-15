@@ -23,5 +23,12 @@ adb shell
 cd data/data/jakhar.aseem.diva/
 cat uinfo*
 ```
+![Screenshot from 2025-04-15 17-48-48](https://github.com/user-attachments/assets/d7fb7bb3-48c3-432b-9733-87bbde998522)
+
+
+
+
+
+
 
 
