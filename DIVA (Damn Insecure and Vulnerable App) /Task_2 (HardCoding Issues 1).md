@@ -12,7 +12,6 @@ When we enter `vendorsecretkey` as input, the application grants access successf
 
 The critical issue here is that **anyone who can view the source code can easily retrieve this hardcoded value and bypass the check**. 
 
-Storing sensitive information like this directly in the source code as plain text is a serious security risk. Sensitive data such as secret keys should never be hardcoded. Instead, it should be either encrypted or obfuscated. Ideally, moved to a secure server and verified via an API 
-call. 
+Storing sensitive information like this directly in the source code as plain text is a serious security risk. Sensitive data such as secret keys should never be hardcoded. Instead, **they should be either encrypted or obfuscated. Ideally, moved to a secure server and verified via an API call**. 
 
 This ensures better protection against reverse engineering and unauthorized access.
