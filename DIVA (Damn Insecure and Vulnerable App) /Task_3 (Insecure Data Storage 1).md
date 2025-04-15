@@ -18,7 +18,9 @@ To display the vulnerability, we first enter our details in the app and click sa
 
 Now, we use the following commands to see the details we have given earlier.
 
-<pre>`adb shell\ncd data/data/jakhar.aseem.diva/shared_prefs\ncat jakhar.aseem.diva_preferences.xml`</pre>
+`adb shell`
+`cd data/data/jakhar.aseem.diva/shared_prefs `
+`cat jakhar.aseem.diva_preferences.xml`
 
 
 
