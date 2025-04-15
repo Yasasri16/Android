@@ -4,7 +4,7 @@ Now, let's proceed with the final challenge named as `Input Validation Issues : 
 
 ![Screenshot from 2025-04-16 02-02-25](https://github.com/user-attachments/assets/754293e6-aba2-4345-bde1-1ee47c1616cd)
 
-By observing the source code, out input has something to do with the file from jni.
+By observing the source code, our input has something to do with the file from jni.
 
 We can see that the method `initiateLaunchSequence` is from the same file as before too.
 
