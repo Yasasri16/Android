@@ -8,21 +8,12 @@ Upon launching the Notes section in the app, it prompts the user to enter a PIN 
 
 Decompiling the application using `jadx` reveals the following code in the `AccessControl3NotesActivity`:
 
-```java
-Cursor cr = getContentResolver().query(
-    NotesProvider.CONTENT_URI,
-    new String[]{"_id", "title", "note"},
-    null,
-    null,
-    null
-);
-```
+![Screenshot from 2025-04-16 00-29-27](https://github.com/user-attachments/assets/78d34fce-5869-49c6-b2b1-d2fa646c0baa)
+
 
 The `NotesProvider.CONTENT_URI` is defined as:
 
-```
-content://jakhar.aseem.diva.provider.notesprovider/notes
-```
+![Screenshot from 2025-04-16 00-30-44](https://github.com/user-attachments/assets/bb5d201c-74c9-4a0b-895a-186fe271e393)
 
 This indicates that the app uses a **ContentProvider** to manage its notes data. If the provider is not properly secured, it may be possible to access the data externally.
 
@@ -34,6 +25,7 @@ Then, using the Android `content` command to query the provider:
 
 `content query --uri content://jakhar.aseem.diva.provider.notesprovider/notes`
 
+![Screenshot from 2025-04-16 00-27-46](https://github.com/user-attachments/assets/01453164-7da7-44c3-b5e3-d2d7dbbd03c3)
 
 The command returns the stored notes in plaintext, successfully bypassing the PIN check.
 
