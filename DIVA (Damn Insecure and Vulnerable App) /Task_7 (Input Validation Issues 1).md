@@ -12,6 +12,5 @@ When we enter `' or TRUE;`, the final query becomes
 
 `SELECT * FROM sqliuser WHERE user = '' or TRUE;'"`
 
-This retrives the data either if the username is '' (NULL or Empty) or the condition is TRUE. Here, we gave the input as TRUE itself instead of any true condition, which is always true and hence all the data from the database can be retreived.
+This retrives the data either if the username is ' ' (NULL or Empty) or the condition is TRUE. Here, we gave the input as TRUE itself instead of any true condition, which is always true and hence all the user data from the database can be retreived.
 
-All rows in the sqliuser table are returned, regardless of what username the attacker gives.
