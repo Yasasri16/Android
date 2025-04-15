@@ -9,10 +9,15 @@ Here, it is very clear that the input should be equal to `vendorsecretkey` to ge
 Here is the part of code which validates the input to be `vendorsecretkey`. 
 
 `if (hckey.getText().toString().equals("vendorsecretkey")) {
+
             Toast.makeText(this, "Access granted! See you on the other side :)", 0).show();
+            
         } else {
+        
             Toast.makeText(this, "Access denied! See you in hell :D", 0).show();
+            
         }
+        
 `
 When we enter `vendorsecretkey` as input, it successfully gives us access.
 
