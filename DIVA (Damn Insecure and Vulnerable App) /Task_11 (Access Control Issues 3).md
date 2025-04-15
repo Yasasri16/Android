@@ -10,6 +10,10 @@ Decompiling the application using `jadx` reveals the following code in the `Acce
 
 ![Screenshot from 2025-04-16 00-29-27](https://github.com/user-attachments/assets/78d34fce-5869-49c6-b2b1-d2fa646c0baa)
 
+When you press `go to notes` button, it will lead to `AccessControl3NotesActivity`.
+
+![Screenshot from 2025-04-16 03-19-50](https://github.com/user-attachments/assets/ece7dd15-110d-4915-ae5b-9b9481701e9f)
+
 
 The `NotesProvider.CONTENT_URI` is defined as:
 
