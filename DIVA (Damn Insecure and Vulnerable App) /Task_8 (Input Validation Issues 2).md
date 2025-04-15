@@ -14,8 +14,7 @@ Now, let's try to demonstrate the vulnerability.
 
 Let's try to access any sensitive information from the files from the previous challenges or from Shared Preferences.
 
-
-
-
-
 ![Screenshot from 2025-04-15 22-58-57](https://github.com/user-attachments/assets/ec7a8145-3de0-4c79-b26a-a1c22342c0e9)  ![Screenshot from 2025-04-15 22-59-56](https://github.com/user-attachments/assets/7c9a5a86-8a8b-4f05-93b7-3ba6c391c2ed)
+
+Hence, improper validation of user input can introduce major security flaws in an application. To safeguard against such threats, it's important to validate and sanitize all user inputs—preferably on both the client and server sides. Ensuring strict input rules and avoiding direct execution of user-provided content significantly enhances the overall security of the application.
+
