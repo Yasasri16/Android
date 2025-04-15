@@ -14,7 +14,7 @@ Here is the part of code which is responsible for the logging.
 
 `Log.e("diva-log", "Error while processing transaction with credit card: " + cctxt.getText().toString());`
 
-We know that any application or any user can access logcat. The fact that our sensitive information is being logged and can be accessed by anyone is the critical issue here. The best solution is either avoid logging sensitive data or implementing proper data masking. 
+We know that any application or any user can access logcat. **The fact that our sensitive information is being logged and can be accessed by anyone** is the critical issue here. The best solution is either avoid logging sensitive data or implementing proper data masking. 
 
 Now, to display the vulnerability, we can use the following command.
 
