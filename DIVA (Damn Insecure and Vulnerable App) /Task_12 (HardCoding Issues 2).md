@@ -10,6 +10,9 @@ From the source code, it is clear that the input string is getting compared to s
 
 In `DivaJni.class`, we saw that some native functions are declared.
 
-In `lib`, we can find the many `.so files` (different arch).
+![Screenshot from 2025-04-16 01-45-11](https://github.com/user-attachments/assets/e0275849-83ab-4e13-bb90-b93c6be0d17d)
+
+In `Resources/lib`, we can find the many `.so files` (different arch).
 
 We then download any one of these `.so files` and decompile them using IDA or Ghidra to see the native code.
+
