@@ -10,5 +10,5 @@ The issue here is that **the data is stored in plain text in the Shared Preferen
 
 Storing data in plain text within the SharedPreferences is a security risk because attackers can easily read or modify stored data on rooted devices, leading to data leaks. Sensitive info like tokens or login states in plaintext can be exploited. 
 
-Encrypting ensures data is securely stored and unreadable without proper keys, protecting against tampering and unauthorized access.
+The best possible solution is encrypting the data in Shared Preferences. Encrypting ensures data is securely stored and unreadable without proper keys, protecting against tampering and unauthorized access.
 
