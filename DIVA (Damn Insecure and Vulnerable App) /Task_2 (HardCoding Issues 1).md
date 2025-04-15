@@ -1,6 +1,7 @@
 ## Task 2 – Hardcoding Issues - Part 1
 
-Now, let's move on to the second challenge, which is titled **"HARDCODING ISSUES - PART 1"**.
+Now, let's move on to the second challenge, which is titled `**"HARDCODING ISSUES - PART 1"**`
+
 
 From the source code (see: *Screenshot from 2025-04-15 15-51-44*), it's clear that the application checks whether the user input is equal to a hardcoded string called `vendorsecretkey`.
 
