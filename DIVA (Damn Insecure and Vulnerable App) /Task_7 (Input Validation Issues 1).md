@@ -15,3 +15,5 @@ This retrives the data either if the username is ' ' (NULL or Empty) or the cond
 ![Screenshot from 2025-04-15 19-51-16](https://github.com/user-attachments/assets/b051c279-93a7-4e46-9de7-8170e3445dbe)
 
 Hence, we got all the user data without even knowing any username.
+
+To prevent SQL injection and protect user privacy, user input should never be directly added into SQL queries. Instead, parameterized queries must be used, which separate SQL logic from user data. In Android, methods like rawQuery() or query() with placeholders (?) ensure inputs are safely handled. This prevents attackers from injecting malicious SQL to access or manipulate private data. Input validation can add extra security by restricting allowed characters. Using these practices is essential to keep user data safe and maintain the integrity of the application.
