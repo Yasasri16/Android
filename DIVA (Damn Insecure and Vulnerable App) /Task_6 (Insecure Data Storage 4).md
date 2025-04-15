@@ -12,7 +12,7 @@ The critical issue here is that **the user entered data is getting stored in the
 
 This presents a serious security risk regarding to user privacy. Storing sensitive data like this in files without encyption leads to data leaks.
 
-The best solution is to encrypt the data before storing the data in a file to prevent unauthorized access. Hence we can ensure the protection of user data against potential threats.
+The best solution is **to encrypt the data before storing the data in a file** to prevent unauthorized access. Hence we can ensure the protection of user data against potential threats.
 
 To display the vulnerability, we first enter our details in the app and click save button.
 
