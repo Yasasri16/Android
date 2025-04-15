@@ -8,3 +8,10 @@ During this level, people might face issues because the app lacks required requi
 
 It is clear from the code that the data is being stored in a file called ".uinfo.txt" which is stored in the external storage.
 
+The critical issue here is that **the user entered data is getting stored in the file without any exncyption or obfuscation. It is getting stored in plain text**. Any one who has access to the device can view your information.
+
+This presents a serious security risk regarding to user privacy. Storing sensitive data like this in files without encyption leads to data leaks.
+
+The best solution is to encrypt the data before storing the data in a file to prevent unauthorized access. Hence we can ensure the protection of user data against potential threats.
+
+To display the vulnerability, we first enter our details in the app and click save button.
