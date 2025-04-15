@@ -20,6 +20,13 @@ Let's try entering it as input.
 
 It worked. But this is not our objective. Our objective is to crash the application.
 
-To crash the app, we need to enter a long string as input.
+To crash the app, we use a software testing technique called `fuzzing`.
 
-By entering a long string as input, the app crashes. This method is called `Fuzzing`. If we enter an input in an application and it doesn't have exception handling, it will crash.
+Fuzzing is a software testing technique used to find security vulnerabilities and bugs by automatically feeding unexpected, malformed, or random data (inputs) into an app and monitoring how it behaves.
+
+![Screenshot from 2025-04-16 02-20-13](https://github.com/user-attachments/assets/50c629ad-cf22-496b-bb2c-e8810b7b2028)
+![Screenshot from 2025-04-16 02-20-35](https://github.com/user-attachments/assets/7f6f1346-43a1-40d6-9fc6-7cf580f2feb1)
+
+
+
+By entering a long string as input, the app crashes.
