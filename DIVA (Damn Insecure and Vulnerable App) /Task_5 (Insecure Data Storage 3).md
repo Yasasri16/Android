@@ -21,5 +21,8 @@ Now, we will use the following commands to see the details which we have entered
 ```
 adb shell
 cd data/data/jakhar.aseem.diva/
-cat uinfo
+
+cat uinfo*
 ```
+
+
