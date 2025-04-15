@@ -6,7 +6,7 @@ Now, let's proceed with the final challenge named as `Input Validation Issues : 
 
 By observing the source code, our input has something to do with the file from jni.
 
-We can see that the method `initiateLaunchSequence` is from the same file as before too.
+We can see that the method `initiateLaunchSequence` is from the same file as before.
 
 Now, let's look at the decompiled code and find the method `initiateLaunchSequence`.
 
