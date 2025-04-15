@@ -6,7 +6,7 @@ The goal is to access notes stored by the app **without entering the correct PIN
 
 Upon launching the Notes section in the app, it prompts the user to enter a PIN before displaying any saved notes. This suggests the presence of some access control mechanism.
 
-Decompiling the application using `jadx` reveals the following code in the `AccessControl3NotesActivity`:
+Decompiling the application using `jadx` reveals the following code in the `AccessControl3Activity`:
 
 ![Screenshot from 2025-04-16 00-29-27](https://github.com/user-attachments/assets/78d34fce-5869-49c6-b2b1-d2fa646c0baa)
 
