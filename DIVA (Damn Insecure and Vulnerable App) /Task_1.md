@@ -1,8 +1,6 @@
 # Task 1
 
-After installing the APK, we can see why this application is designed and we can see 13 different options or levels.
-
-The initial one is `Insecure Logging`.
+Upon installing and launching the APK, we observe that the application provides 13 different challenges, each corresponding to a specific vulnerability. The first level is titled "Insecure Logging".
 
 To understand what's actually happening over there, we need to examine the source code through JADX.
 
