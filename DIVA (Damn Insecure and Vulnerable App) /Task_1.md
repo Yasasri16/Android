@@ -20,4 +20,4 @@ Now, to display the vulnerability, we can use the following command.
 
 `adb logcat | grep "diva-log"`
 
-This command filters out log messages tagged with diva-log and reveals the credit card number that was entered in the app.
+This command filters out log messages tagged with diva-log and reveals the credit card number that was entered by user.
