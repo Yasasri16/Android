@@ -50,3 +50,5 @@ Now, while using adb command, we need to manually pass the boolean value "false"
 This is the final command :
 
 `adb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.action.VIEW_CREDS2 --ez check_pin false`.
+
+**NOTE : ez is a flag which refers to boolean extra**.
