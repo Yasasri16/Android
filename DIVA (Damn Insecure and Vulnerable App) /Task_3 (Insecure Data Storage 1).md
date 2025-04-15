@@ -10,7 +10,7 @@ The core issue here is that **the data is saved in plain text, making it easily 
 
 This presents a serious security risk, as attackers can read or manipulate the stored data, potentially leading to data leaks or unauthorized access to app features.
 
-The best possible solution is to encrypt the data before storing it in SharedPreferences. Encryption ensures that sensitive data remains protected and unreadable without the appropriate decryption key, thereby safeguarding it from tampering and unauthorized access. Hence we can ensure the protection of user data against potential threats.
+The best possible solution is **to encrypt the data before storing it in SharedPreferences**. Encryption ensures that sensitive data remains protected and unreadable without the appropriate decryption key, thereby safeguarding it from tampering and unauthorized access. Hence we can ensure the protection of user data against potential threats.
 
 To display the vulnerability, we first enter our details in the app and click save button.
 
