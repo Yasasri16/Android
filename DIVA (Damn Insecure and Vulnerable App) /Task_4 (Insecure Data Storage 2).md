@@ -27,3 +27,5 @@ sqlite> SELECT * FROM myuser;
 sqlite> .exit
 ```
 ![Screenshot from 2025-04-15 17-18-22](https://github.com/user-attachments/assets/cf3a3538-0dc2-4d5e-a5a5-28cfc0ec60d9)
+
+Here are the details which I entered till now.
