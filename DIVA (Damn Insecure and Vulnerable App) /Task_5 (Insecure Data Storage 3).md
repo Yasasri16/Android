@@ -6,7 +6,7 @@ Let's move on to the fifth challenge which is named as `Insecure Data Storage : 
 
 From the code, it is clear that the entered details are being stored in a temporary file that is created when we enter the save button. That temporary file is named as `uinfo`.
 
-The critical issue here is that the user entered data is getting stored in the file without any exncyption or obfuscation. It is getting stored in plain text.
+The critical issue here is that **the user entered data is getting stored in the file without any exncyption or obfuscation. It is getting stored in plain text**.
 
 This presents a serious security risk regarding to user privacy. Storing sensitive data like this in files without encyption leads to data leaks. 
 
