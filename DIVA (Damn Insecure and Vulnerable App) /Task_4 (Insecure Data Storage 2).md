@@ -26,7 +26,7 @@ Now, we use the following commands to see the details we have given earlier.
 
 `sqlite> .tables`
 
-`sqlite> SELECT * FROM myuser`
+`sqlite> SELECT * FROM myuser;`
 
 `sqlite> .exit`
 
