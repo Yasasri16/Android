@@ -10,7 +10,7 @@ public class Player {
     @PrimaryKey(autoGenerate = true)
 
     public int id;
-    @ColumnInfo(name = "name") // 👈 Explicitly specify column name
+    @ColumnInfo(name = "name") 
     public String name;
 
     public Player(String name) {
