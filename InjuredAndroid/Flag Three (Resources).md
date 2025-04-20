@@ -1,4 +1,4 @@
-# Flag 3: Resources
+# Flag Three : Resources
 
 When launching this challenge, the app presents a simple input field asking for a flag. 
 
