@@ -2,7 +2,7 @@
 
 When launching this challenge, the app displays a hint message :
 
-“There is a way to bypass the main activity and invoke other activities that are exported.”
+**There is a way to bypass the main activity and invoke other activities that are exported.**
 
 ![Screenshot from 2025-04-20 23-59-55](https://github.com/user-attachments/assets/8dc4dcde-07c9-4f4f-a0e8-84768f1a0e2f)
 
