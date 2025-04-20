@@ -1,6 +1,10 @@
 # Flag Four: Login 2
 
-Upon opening this challenge, the app prompts the user to enter a flag. To determine the correct value, I began by inspecting the app's source code using JADX.
+Upon opening this challenge, the app prompts the user to enter a flag. 
+
+![Screenshot from 2025-04-21 00-31-52](https://github.com/user-attachments/assets/77514f6a-321e-44c0-9db9ccb9215b9478)
+
+To determine the correct value, I began by inspecting the app's source code using JADX.
 
 In the submitFlag() method, I found the following code:
 
@@ -36,9 +40,14 @@ public class g {
 
 Here, I noticed that the byte array is the result of decoding a Base64 encoded string. 
 
-I decoded the string `NF9vdmVyZG9uZV9vbWVsZXRz` and obtained the flag:
+I decoded the string `NF9vdmVyZG9uZV9vbWVsZXRz` and obtained the flag :
 
 `4_overdone_omelets`
 
 I then entered this as the input and successfully completed the challenge.
+
+![Screenshot from 2025-04-21 00-32-10](https://github.com/user-attachments/assets/0926bd99-b193-4ee9-96b3-417dffd948c3)
+![Screenshot from 2025-04-21 00-32-18](https://github.com/user-attachments/assets/76c37b13-76c0-43b8-aead-cd348fe09c2d)
+
+
 
