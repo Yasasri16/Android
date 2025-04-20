@@ -26,5 +26,4 @@ If the input matches exactly, it triggers a new activity `FlagOneSuccess` and up
 Since the flag is hardcoded, I simply entered `F1ag_0n3` as the input and successfully completed the challenge.
 
 ![Screenshot from 2025-04-20 23-43-03](https://github.com/user-attachments/assets/51bbf911-baf4-4131-9c77-7cccf6ac9e8b)
-
 ![Screenshot from 2025-04-20 23-43-07](https://github.com/user-attachments/assets/71373482-0abf-4887-b3ce-4fce48cd2f72)
