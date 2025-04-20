@@ -1,4 +1,4 @@
-# Flag One: Login
+# Flag One : Login
 
 After installing the app and launching the first challenge titled `Flag One - Login`, the app presents a simple interface with an input field labeled "Enter Flag" and a Submit button.
 
