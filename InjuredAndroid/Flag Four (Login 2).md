@@ -2,7 +2,7 @@
 
 Upon opening this challenge, the app prompts the user to enter a flag. 
 
-![Screenshot from 2025-04-21 00-31-52](https://github.com/user-attachments/assets/77514f6a-321e-44c0-9db9ccb9215b9478)
+![Screenshot from 2025-04-21 00-31-52](https://github.com/user-attachments/assets/72f9e086-99e9-4af3-af92-9ce65aa257ae)
 
 To determine the correct value, I began by inspecting the app's source code using JADX.
 
