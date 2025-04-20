@@ -1,6 +1,11 @@
 # Flag Six: Login 3
 
-When I opened this challenge, the app prompted for a flag input. To determine the correct value, I examined the source code using JADX.
+When I opened this challenge, the app prompted for a flag input. 
+
+![Screenshot from 2025-04-21 01-13-10](https://github.com/user-attachments/assets/9d2adfe5-7105-4ca2-a49f-892bbdc9a317)
+
+To determine the correct value, I examined the source code using JADX.
+
 
 In the submitFlag() method, I found the following logic:
 
@@ -64,3 +69,12 @@ Decoding "Q2FwdHVyM1RoMXM=" gives us the DES key as `Captur3Th1s`.
 Using this key, I decrypted the original Base64-encoded string.
 
 The result of the decryption was `{This_Isn't_Where_I_Parked_My_Car}`.
+
+![Screenshot from 2025-04-21 01-11-52](https://github.com/user-attachments/assets/fddf3e19-818e-43da-80ee-2301b6bafc7a)
+
+I submitted the flag and hence completed the challenge.
+
+![Screenshot from 2025-04-21 01-13-33](https://github.com/user-attachments/assets/c748c99c-7dae-4a14-889c-5d7bd0cac58f)
+![Screenshot from 2025-04-21 01-13-43](https://github.com/user-attachments/assets/e32bb223-9e17-4825-80e2-82cdc363e8c6)
+
+
