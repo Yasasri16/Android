@@ -2,7 +2,7 @@
 
 When launching this challenge, the app presents a simple input field asking for a flag. 
 
-![Screenshot from 2025-04-21 00-12-48](https://github.com/user-attachments/assets/33e6006d-fc53-4652-b0b1ab29ff448366)
+![Screenshot from 2025-04-21 00-12-48](https://github.com/user-attachments/assets/3484b71b-e842-41c4-843f-38a15728da54)
 
 To determine what value it was expecting, I opened the app in JADX and inspected the source code.
 
