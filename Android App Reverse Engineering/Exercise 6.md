@@ -37,11 +37,9 @@ Open libnative-lib.so in Ghidra or IDA Free.
 
 **Step 4: Identify JNI Functions**
 
-Look for symbols like:
+Look for methods like:
 
-```nginx
-Java_com_example_app_MainActivity_sendSMS
-```
+`Java_com_example_app_MainActivity_sendSMS`
 
 These are native implementations of Java methods. You can find them by searching for Java_ prefixes.
 
@@ -49,7 +47,7 @@ These are native implementations of Java methods. You can find them by searching
 
 Use Ghidra’s decompiler to turn assembly into C-like pseudocode. You may see:
 
-```c
+```
 const char* number = "19761234";
 const char* msg = "Subscribe";
 jclass smsMgr = env->FindClass("android/telephony/SmsManager");
