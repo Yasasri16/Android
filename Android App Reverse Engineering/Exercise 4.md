@@ -1,4 +1,4 @@
-# Exercise 4 Write-up : Arbitrary Command Execution via Binder (HonSystemService.apk)
+# Exercise 4 Write-up : Arbitrary Command Execution via Binder 
 
 This exercise focuses on analyzing an Android APK that uses **Binder**, Android’s Inter-Process Communication (IPC) mechanism. Our goal is to identify a vulnerability that could allow **arbitrary command execution** via a misconfigured **Binder service**.
 
