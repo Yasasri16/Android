@@ -10,4 +10,4 @@ To understand where to start, we need to look at the follwowing :
 - API Calls.
 - Decrypted methods.
 
-  We need to look at the code to find the answer for the question why we are reversing.
+We need to look at the code to find the answer for the question why we are reversing.
