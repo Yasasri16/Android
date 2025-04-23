@@ -34,8 +34,7 @@ If the broadcast includes an extra string with key "cmd", the receiver will exec
 
 This execution occurs with the system user's privileges, second only to root.
 
-🧪 Exploitation Proof-of-Concept
-An attacker app could exploit this by sending a broadcast intent as shown below:
+An attacker or an app could exploit this by sending a broadcast intent as shown below:
 
 ```java
 Intent intent = new Intent("android.intent.action.AdupsFota.operReceiver");
