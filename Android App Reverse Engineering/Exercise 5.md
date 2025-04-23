@@ -1,6 +1,6 @@
 # Exercise 5 : Finding the Native Function in an Android App
 
-The goal of this exercise is to reverse engineer an Android app (`Mediacode.apk`) to trace native method declarations in the Java code back to their corresponding implementations in the native `.so` libraries. This includes:
+The goal of this exercise is to reverse engineer an Android app (`Mediacode.apk`) to find native method declarations in the Java code back to their corresponding implementations in the native `.so` libraries. This includes:
 
 1. Identifying declared native methods in the DEX bytecode.
 2. Finding which native library is loaded.
