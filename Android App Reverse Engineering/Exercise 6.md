@@ -43,7 +43,7 @@ Look for methods like:
 
 These are native implementations of Java methods. You can find them by searching for Java_ prefixes.
 
-** Step 5: Reconstruct Logic **
+**Step 5: Reconstruct Logic**
 
 Use Ghidra’s decompiler to turn assembly into C-like pseudocode. You may see:
 
