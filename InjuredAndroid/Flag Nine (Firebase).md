@@ -18,6 +18,8 @@ Using this information, and the known Firebase base URL `https://injuredandroid.
 
 Accessing this URL gave me `[nine!_flag]`.
 
+![Screenshot from 2025-05-13 12-39-00](https://github.com/user-attachments/assets/aebaf172-d720-4836-8c5b-63bb5152128e)
+
 This string after base 64 coded is the flag `W25pbmUhX2ZsYWdd`.
 
 ![Screenshot from 2025-05-12 20-25-38](https://github.com/user-attachments/assets/5bee3543-070c-4e1c-a731-90c33764ff87)
