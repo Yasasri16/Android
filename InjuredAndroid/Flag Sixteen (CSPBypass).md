@@ -54,7 +54,7 @@ I decrypted the string twice using respective secret keys and found a url.
 
 ![Screenshot from 2025-05-13 16-32-43](https://github.com/user-attachments/assets/bca7a620-e06a-44dc-a4bc-768a933994e2)
 
-I have tried modifying my adb command as `adb shell am start -n b3nac.injuredandroid/.CSPBypassActivity -d "https://b3nac.com/contentsecuritypolicyflag.html"
+I have tried modifying my adb command as `adb shell am start -n b3nac.injuredandroid/.CSPBypassActivity -d "https://b3nac.com/contentsecuritypolicyflag.html"`
 
 This directed me to browser and then blank page.
 
