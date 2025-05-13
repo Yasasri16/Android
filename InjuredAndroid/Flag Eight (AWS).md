@@ -18,7 +18,7 @@ By appending the known endpoint /aws to this URL, I constructed the full Firebas
 
 Visiting this URL returned the flag:
 
-`C10ud_S3cur1ty_lol`
+![Screenshot from 2025-05-13 12-38-00](https://github.com/user-attachments/assets/17e9a945-497f-46d7-ae33-19634f1de732)
 
 I then entered this as the input and successfully completed the challenge.
 
