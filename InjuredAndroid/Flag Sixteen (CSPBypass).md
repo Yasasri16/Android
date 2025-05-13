@@ -60,4 +60,4 @@ This directed me to browser and then blank page.
 
 Then I monitered the traffic using HttpToolkit after I execute the adb command.
 
-I found that "https://b3nac.com/contentsecuritypolicyflag.html" url gave a response body but it has nothing in it.
+I found that `https://b3nac.com/contentsecuritypolicyflag.html` url gave a response body but it has nothing sus in it.
