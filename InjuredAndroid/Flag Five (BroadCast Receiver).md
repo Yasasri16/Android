@@ -2,8 +2,6 @@
 
 When you just click on the button thrice, you will get the flag.
 
-![Screenshot from 2025-05-13 17-18-22](https://github.com/user-attachments/assets/ff9a71be-e549-48b5-87b5-770a229663bc)
-![Screenshot from 2025-05-13 17-18-32](https://github.com/user-attachments/assets/caf363fb-0466-4541-a053-cc85b1c6600c)
 ![Screenshot from 2025-05-13 17-19-20](https://github.com/user-attachments/assets/9f19e814-3740-4c8b-8224-5f3966b4501c)
 
 Being curious about what's happening, I used jadx to see the code.
