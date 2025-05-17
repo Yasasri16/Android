@@ -146,3 +146,27 @@ Our new adb command is
 `adb shell am start -a android.intent.action.VIEW -n beta.smartcorp.specialist.ui.map/.MapFragment -d "webview://url?deeplink-secret-intent-data"` 
 
 ![image](https://github.com/user-attachments/assets/8fa5a2d5-e6a6-4ead-845e-e2321c2abe65)
+
+# SUPER SECURE CATALOG
+
+Upon installing the app and launching it, I was asked to enter the credentials.
+
+As MainActivity is exported as true, I just used adb commands to launch it.
+
+But I found nthe interface similar to that of `secure catalog`.
+
+I used jadx to see the source code.
+
+In the `Crypto`, we can see half part of the flag.
+
+`cyberchaze{th3_encRYpt3d_STR1ng_in_3nc6yPtE6_`.
+
+Then I saw that a native library named `in` is loaded and decompiled using ghidra.
+
+`a` method returned `length_is_6teen!`.
+`b` method returned `i hate sixteen><`.
+`verify` method returned `fi!E}`.
+
+The string which `verify` returned makes sense with the first part of the flag. Hence I concatenated them.
+
+Finally, it became `cyberchaze{th3_encRYpt3d_STR1ng_in_3nc6yPtE6_fi!E}`
