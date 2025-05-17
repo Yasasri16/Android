@@ -65,3 +65,37 @@ print(flag)
 ```
 
 This gave the output as `byuctf{c++_in_an_apk??}` which passed the sanity check and is the flag.
+
+# Secure Catalog
+
+Upon installing the app and launching it, I was asked to enter the credentials (email and password).
+
+I then viewed the source code using jadx.
+
+```java
+if (LoginActivity.this.emailID.getText().toString().equals(LoginActivity.this.getString(R.string.emailID)) && LoginActivity.this.password.getText().toString().equals(LoginActivity.this.getString(R.string.password))) {
+                        try {
+                            LoginActivity.this.startActivity(new Intent(LoginActivity.this, (Class<?>) MainActivity.class));
+                            return;
+                        } catch (Exception e) {
+                            Log.d(LoginActivity.TAG, "onClick: error " + e);
+                            return;
+                        }
+                    }
+```
+
+We can clearly see that the credentials details are present in `strings.xml`.
+
+After entering them, you will be directed to the MainActivity.
+
+I found nothing interesing there and came back to jadx.
+
+Then in the strings.xml file, something caught my attention.
+
+There were many references about sqlcipher.
+
+I then googled about it and found out that the database is encrypted with a key and can be accessed with "DB Browser for SQLite".
+
+I then explored the app for the pass and found a base64 encoded string `cGFzczEyMw==` in `DBUtil` class.
+
+The key turned out to be `pass123` and I installed DB Browser for SQLite, opened both the databases usimg the key and found the flag in the second one.
