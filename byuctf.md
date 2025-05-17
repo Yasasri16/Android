@@ -99,3 +99,50 @@ I then googled about it and found out that the database is encrypted with a key 
 I then explored the app for the pass and found a base64 encoded string `cGFzczEyMw==` in `DBUtil` class.
 
 The key turned out to be `pass123` and I installed DB Browser for SQLite, opened both the databases usimg the key and found the flag in the second one.
+
+![image](https://github.com/user-attachments/assets/93212f1e-23cb-45f4-8b10-a9db571d4cbf)
+
+# SPECIALIST BETA
+
+Upon finding nothing after installing and launching the app, I used jadx to see the source code.
+
+Inspecting `AndroidManifest.xml` confirmed a deep link being present with the scheme "webview" and host "url".
+
+I tried using this adb command to trigger a deep link.
+
+`adb shell am start -a android.intent.action.VIEW -n beta.smartcorp.specialist.ui.map/.MapFragment -d "webview://url" `
+
+![image](https://github.com/user-attachments/assets/7fcc1041-9c1b-408f-ab2f-23b83d5dc981)
+
+Since something is missing, I went to the `MapFragment` class.
+
+```java
+Uri data = intent.getData();
+        if (data != null && String.valueOf(data).length() > 14 && String.valueOf(data).length() != 27) {
+            String substring = String.valueOf(data).substring(14);
+            try {
+                str = new String(Base64.decode(getString(R.string.d1), 0), "UTF-8");
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+                str = "";
+            }
+            if (substring.equals(str)) {
+                textView.setText(Secrets());
+                return;
+            }
+            return;
+        }
+        if (String.valueOf(data).length() == 27) {
+            textView.setText("You are close to the secret!");
+        } else {
+            textView.setText(R.string.betaMessage);
+        }
+```
+
+From here, we can now finally construct our url by decoding the base64 encided string and using that as a path.
+
+Our new adb command is 
+
+`adb shell am start -a android.intent.action.VIEW -n beta.smartcorp.specialist.ui.map/.MapFragment -d "webview://url?deeplink-secret-intent-data"` 
+
+![image](https://github.com/user-attachments/assets/8fa5a2d5-e6a6-4ead-845e-e2321c2abe65)
