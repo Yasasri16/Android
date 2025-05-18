@@ -172,7 +172,23 @@ Then I saw that a native library named `in` is loaded and decompiled using ghidr
 
 `b` method returned `i hate sixteen><`.
 
-`verify` method returned `fi!E}`.
+`verify` method returned `fi!E}` and the corresponding script is 
+
+```python
+str = "666921457d"
+sub_str = []
+int_list = []
+
+for i in range(0,10,2):
+    sub_str.append(str[i:i+2])
+for i in sub_str:
+    int_list.append(int(i,16))
+char_list = [chr(i) for i in int_list]
+
+result = ''.join(char_list)
+
+print(result)
+    ```
 
 The string which `verify` returned makes sense with the first part of the flag. Hence I concatenated them.
 
