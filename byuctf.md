@@ -188,7 +188,7 @@ char_list = [chr(i) for i in int_list]
 result = ''.join(char_list)
 
 print(result)
-    ```
+```
 
 The string which `verify` returned makes sense with the first part of the flag. Hence I concatenated them.
 
