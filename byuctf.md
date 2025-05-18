@@ -1,5 +1,8 @@
 # Baby Android 1 
 
+**Description** : If you've never reverse engineered an Android application, now is the time!! Get to it, already!! Learn more about how they work!!
+
+
 After installing and launching the app, the initial screen displayed a simple message:
 
 `Too slow!!`
@@ -23,6 +26,9 @@ This allowed the letters to be displayed in their actual positions according to 
 (b was at the top of the screen. I couldn't include it since I zoomed in)
 
 # Baby Android 2
+
+**Description** : If you've never reverse engineered an Android application, now is the time!! Get to it, already!! Learn more about how they work!!
+
 
 Upon installing and launching the app, it asked me to enter a flag for sanity check.
 
