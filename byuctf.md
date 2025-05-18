@@ -170,7 +170,23 @@ Then I saw that a native library named `in` is loaded and decompiled using ghidr
 
 `a` method returned `length_is_6teen!`.
 
-`b` method returned `i hate sixteen><`.
+`b` method returned `i hate sixteen><` and the corresponding script is 
+
+```python
+str = "151040150141164145040163151170164145145156076074"
+sub_str = []
+int_list = []
+
+for i in range(0,48,3):
+    sub_str.append(str[i:i+3])
+for i in sub_str:
+    int_list.append(int(i,8))
+char_list = [chr(i) for i in int_list]
+
+result = ''.join(char_list)
+
+print(result)
+```
 
 `verify` method returned `fi!E}` and the corresponding script is 
 
