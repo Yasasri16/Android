@@ -169,7 +169,9 @@ In the `Crypto`, we can see half part of the flag.
 Then I saw that a native library named `in` is loaded and decompiled using ghidra.
 
 `a` method returned `length_is_6teen!`.
+
 `b` method returned `i hate sixteen><`.
+
 `verify` method returned `fi!E}`.
 
 The string which `verify` returned makes sense with the first part of the flag. Hence I concatenated them.
