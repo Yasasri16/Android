@@ -168,7 +168,23 @@ In the `Crypto`, we can see half part of the flag.
 
 Then I saw that a native library named `in` is loaded and decompiled using ghidra.
 
-`a` method returned `length_is_6teen!`.
+`a` method returned `length_is_6teen!` and the corresponding script is 
+
+```python
+str = "154145156147164150137151163137066164145145156041"
+sub_str = []
+int_list = []
+
+for i in range(0,48,3):
+    sub_str.append(str[i:i+3])
+for i in sub_str:
+    int_list.append(int(i,8))
+char_list = [chr(i) for i in int_list]
+
+result = ''.join(char_list)
+
+print(result)
+```
 
 `b` method returned `i hate sixteen><` and the corresponding script is 
 
