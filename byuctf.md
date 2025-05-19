@@ -54,13 +54,7 @@ I then opened jadx to view the source code.
 
 In the `MainActivity`, we can see the follwoing snippet.
 
-```java
-if (FlagChecker.check(flagAttempt)) {
-                    banner.setText("That's the right flag!!!");
-                } else {
-                    banner.setText("Nope! Try again if you'd like");
-                }
-```
+![image](https://github.com/user-attachments/assets/f23c5e3a-7af1-4237-93ab-0b1f1958f24a)
 
 Our input is being sent to the method `check` of `FlagChecker` class.
 
