@@ -60,13 +60,8 @@ Our input is being stored in a variable named `flagAttempt` and sent to the meth
 
 Navigating to FlagChecker class gave this crucial detail.
 
-```java
- public static native boolean check(String str);
+![image](https://github.com/user-attachments/assets/13545025-379e-47fc-9bb1-75ae3db027c8)
 
-    static {
-        System.loadLibrary("babyandroid");
-    }
-```
 I decompiled `libbabyandroid.so` file using ghidra.
 
 After seeing the code and what's happening to the input , I wrote a corresponding python script to find the valid input.
