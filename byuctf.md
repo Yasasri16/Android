@@ -79,7 +79,7 @@ for i in range(23):
 print(flag)
 ```
 
-![image](https://github.com/user-attachments/assets/0faead2b-6b59-4dbe-8f9f-620038d8fe1a)
+![image](https://github.com/user-attachments/assets/f454c3e9-56ec-472c-9683-3fa312d41694)
 
 This gave the output as `byuctf{c++_in_an_apk??}` which passed the sanity check and is the flag.
 
