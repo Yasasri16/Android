@@ -62,9 +62,11 @@ Navigating to FlagChecker class gave this crucial detail.
 
 ![image](https://github.com/user-attachments/assets/13545025-379e-47fc-9bb1-75ae3db027c8)
 
-I decompiled `libbabyandroid.so` file using ghidra.
+I decompiled the native `libbabyandroid.so` file to analyze the underlying C/C++ logic.
 
-After seeing the code and what's happening to the input , I wrote a corresponding python script to find the valid input.
+The `check` method contains the logic responsible for verifying if the input satisfies the sanity check criteria.
+
+I reversed the logic and developed a Python script that generates an input satisfying the criteria.
 
 ```python
 secret = "bycnu)_aacGly~}tt+?=<_ML?f^i_vETkG+b{nDJrVp6=)="
