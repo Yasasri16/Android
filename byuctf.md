@@ -9,7 +9,25 @@ After installing and launching the app, the initial screen displayed a simple me
 
 I decided to see the source code by decompiling the APK with JADX.
 
-Inside the resources, I found the layout file activity_main.xml containing 28 TextView elements. 
+Here's the code in `MainActivity`.
+
+![image](https://github.com/user-attachments/assets/18f2b032-5be1-4bb8-a8ae-5369e01715fb)
+
+We can see that an instance of the Utilities class is created and assigned to the variable util.
+
+Then a method named cleanUp() on the Utilities object is called.
+
+Navigating to the `Utilities` class, gave a crucial clue.
+
+![image](https://github.com/user-attachments/assets/1efe6a5e-f76c-4c09-996d-05f30af06e89)
+
+We can see that there are 28 TextViews present in this method.
+
+Each TextView is named flagPart1, flagPart2, ..., flagPart28. This function sets all of them to an empty string (""), effectively erasing the flag shown on the screen.
+
+That's the reason you only see "Too slow !!" on the screen.
+
+Then inside the resources, I navigated to the layout file activity_main.xml containing 28 TextView elements. 
 
 Each TextView held a single letter, but the letters appeared scrambled and out of order. 
 
