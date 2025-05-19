@@ -11,7 +11,7 @@ I decided to see the source code by decompiling the APK with JADX.
 
 Here's the code in `MainActivity`.
 
-![image](https://github.com/user-attachments/assets/18f2b032-5be1-4bb8-a8ae-5369e01715fb)
+![image](https://github.com/user-attachments/assets/2ac488d9-892c-4ce4-acae-307953b70b98)
 
 We can see that an instance of the Utilities class is created and assigned to the variable util.
 
