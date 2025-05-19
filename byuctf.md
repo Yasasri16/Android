@@ -56,7 +56,7 @@ In the `MainActivity`, we can see the follwoing snippet.
 
 ![image](https://github.com/user-attachments/assets/f23c5e3a-7af1-4237-93ab-0b1f1958f24a)
 
-Our input is being sent to the method `check` of `FlagChecker` class.
+Our input is being stored in a variable named `flagAttempt` and sent to the method `check` of `FlagChecker` class.
 
 Navigating to FlagChecker class gave this crucial detail.
 
