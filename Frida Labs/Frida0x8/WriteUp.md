@@ -1,3 +1,20 @@
+In the `MainActivity`, we can see the following code.
+```java
+button.setOnClickListener(new View.OnClickListener() { // from class: com.ad2001.frida0x8.MainActivity.1
+            @Override // android.view.View.OnClickListener
+            public void onClick(View v) {
+                String ip = MainActivity.this.edt.getText().toString();
+                int res = MainActivity.this.cmpstr(ip);
+                if (res == 1) {
+                    Toast.makeText(MainActivity.this, "YEY YOU GOT THE FLAG " + ip, 1).show();
+                } else {
+                    Toast.makeText(MainActivity.this, "TRY AGAIN", 1).show();
+                }
+            }
+        });
+```
+If the input which we enter and the a string from the jni is equal, the value of res will be 1 and hence we will get the flag as a toast.
+  
   ```c
 __s1 = (char *)_JNIEnv::GetStringUTFChars(param_1,param_3,(uchar *)0x0);
   local_c4 = 0;
