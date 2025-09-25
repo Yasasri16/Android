@@ -31,13 +31,14 @@ if (MainActivity.this.f928c.getText().toString().equals("admin")) {
                 makeText.show();
 ```
 
-From the code, we can see that if the name is "admin" and the hash of the password is `a2a3d412e92d896134d9c9126d756f`.
+From the code, we can see that if the name is "admin" and the hash of the password is `a2a3d412e92d896134d9c9126d756f`, the flag will get toasted.
 
 However, we are unable to find the correct word whose hash is `a2a3d412e92d896134d9c9126d756f`.
 
 So, we can try hooking the `equals` method and make it return true even if we enter some random string.
 
 ## Hooking equals() :
+
 ```javascript
 Java.perform(function() {
     var String = Java.use("java.lang.String");
