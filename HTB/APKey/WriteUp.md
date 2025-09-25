@@ -42,10 +42,7 @@ So, we can try hooking the `equals` method and make it return true even if we en
 Java.perform(function() {
     var String = Java.use("java.lang.String");
     String.equals.implementation = function(other) {
-        if (other == "a2a3d412e92d896134d9c9126d756f") {
-            return true; 
-        }
-        return this.equals(other);
+       return true;
     }
 });
 ```
