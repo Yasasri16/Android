@@ -44,4 +44,37 @@ Since it said **Look me inside**, if we examine the `onReceive` method, we can s
 
 After opening the libangler.so file in Ghidra, we can see the following code :
 
+```c
+
+void Java_com_example_angler_MainActivity_getInfo
+               (long *param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  char *pcVar1;
+  long in_FS_OFFSET;
+  byte local_38;
+  undefined1 local_37 [15];
+  undefined1 *local_28;
+  long local_20;
+  
+  local_20 = *(long *)(in_FS_OFFSET + 0x28);
+  pcVar1 = (char *)(**(code **)(*param_1 + 0x548))(param_1,param_3,0);
+  illusion(pcVar1);
+  ne((char *)&local_38);
+  if ((local_38 & 1) == 0) {
+    local_28 = local_37;
+  }
+  else {
+    operator.delete(local_28);
+  }
+  (**(code **)(*param_1 + 0x538))(param_1,local_28);
+  if (*(long *)(in_FS_OFFSET + 0x28) == local_20) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+```
+Inside the `getInfo` method, we can see two more methods named `illusion` and `ne`.
+
 
