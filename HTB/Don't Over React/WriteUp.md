@@ -1,4 +1,6 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7365ec60-595f-40f6-8552-42d32f36b558" />The description of the challenge is as follows :
+## Dont Overreact
+
+The description of the challenge is as follows :
 
 **Some web developers wrote this fancy new app! It’s really cool, isn’t it?**
 
